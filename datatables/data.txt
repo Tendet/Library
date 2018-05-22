@@ -1,0 +1,815 @@
+$(document).ready(function() {
+    $('#sample').DataTable();
+} );
+
+
+
+
+<tr>
+	<th>id</th>
+	<th>names</th>
+	<th>region</th>
+	<th>city</th>
+	<th>country</th>
+	<th>salary</th>
+</tr>
+<tr>
+	<td>1</td>
+	<td>Charity Mccullough</td>
+	<td>WB</td>
+	<td>Kulti-Barakar</td>
+	<td>Ethiopia</td>
+	<td>76857</td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>Britanney Clemons</td>
+	<td>Lombardia</td>
+	<td>Gavirate</td>
+	<td>Ecuador</td>
+	<td>54097</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>Xander Foster</td>
+	<td>Zeeland</td>
+	<td>Middelburg</td>
+	<td>Nicaragua</td>
+	<td>65936</td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>Alec Cole</td>
+	<td>Bur</td>
+	<td>Mustafakemalpaşa</td>
+	<td>Serbia</td>
+	<td>83830</td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>Rosalyn Arnold</td>
+	<td>Connacht</td>
+	<td>Galway</td>
+	<td>Uruguay</td>
+	<td>42948</td>
+</tr>
+<tr>
+	<td>6</td>
+	<td>Plato Spencer</td>
+	<td>HE</td>
+	<td>Courcelles</td>
+	<td>Saint Lucia</td>
+	<td>88219</td>
+</tr>
+<tr>
+	<td>7</td>
+	<td>Kellie Allison</td>
+	<td>LA</td>
+	<td>Lagos</td>
+	<td>Marshall Islands</td>
+	<td>71896</td>
+</tr>
+<tr>
+	<td>8</td>
+	<td>Amy Fuentes</td>
+	<td>Emilia-Romagna</td>
+	<td>San Polo d'Enza</td>
+	<td>Kyrgyzstan</td>
+	<td>15168</td>
+</tr>
+<tr>
+	<td>9</td>
+	<td>Kaitlin Kirk</td>
+	<td>Heredia</td>
+	<td>San Pablo</td>
+	<td>Tonga</td>
+	<td>52909</td>
+</tr>
+<tr>
+	<td>10</td>
+	<td>Keane Erickson</td>
+	<td>SK</td>
+	<td>Starachowice</td>
+	<td>Panama</td>
+	<td>20384</td>
+</tr>
+<tr>
+	<td>11</td>
+	<td>Quentin Mcneil</td>
+	<td>ABR</td>
+	<td>Caramanico Terme</td>
+	<td>Zimbabwe</td>
+	<td>28501</td>
+</tr>
+<tr>
+	<td>12</td>
+	<td>Logan Bright</td>
+	<td>South Island</td>
+	<td>Oamaru</td>
+	<td>Sint Maarten</td>
+	<td>48532</td>
+</tr>
+<tr>
+	<td>13</td>
+	<td>Forrest Beard</td>
+	<td>Zl</td>
+	<td>Goes</td>
+	<td>Serbia</td>
+	<td>95186</td>
+</tr>
+<tr>
+	<td>14</td>
+	<td>Colt Gallagher</td>
+	<td>Quebec</td>
+	<td>Chicoutimi</td>
+	<td>Iraq</td>
+	<td>87279</td>
+</tr>
+<tr>
+	<td>15</td>
+	<td>Cora Boyle</td>
+	<td>Lagos</td>
+	<td>Lagos</td>
+	<td>Dominica</td>
+	<td>33407</td>
+</tr>
+<tr>
+	<td>16</td>
+	<td>Nina Mcpherson</td>
+	<td>Ceará</td>
+	<td>Juazeiro do Norte</td>
+	<td>Japan</td>
+	<td>59538</td>
+</tr>
+<tr>
+	<td>17</td>
+	<td>Hall Quinn</td>
+	<td>Ontario</td>
+	<td>Thunder Bay</td>
+	<td>Cyprus</td>
+	<td>62492</td>
+</tr>
+<tr>
+	<td>18</td>
+	<td>Orlando Tucker</td>
+	<td>Vienna</td>
+	<td>Vienna</td>
+	<td>Lesotho</td>
+	<td>37748</td>
+</tr>
+<tr>
+	<td>19</td>
+	<td>Maris Mcmillan</td>
+	<td>RF</td>
+	<td>Barrhead</td>
+	<td>Austria</td>
+	<td>36126</td>
+</tr>
+<tr>
+	<td>20</td>
+	<td>Cassandra Ferguson</td>
+	<td>Zl</td>
+	<td>Sluis</td>
+	<td>Togo</td>
+	<td>27261</td>
+</tr>
+<tr>
+	<td>21</td>
+	<td>Florence Woodard</td>
+	<td>CG</td>
+	<td>Aberystwyth</td>
+	<td>China</td>
+	<td>78122</td>
+</tr>
+<tr>
+	<td>22</td>
+	<td>Elliott Browning</td>
+	<td>Şan</td>
+	<td>Suruç</td>
+	<td>Colombia</td>
+	<td>69072</td>
+</tr>
+<tr>
+	<td>23</td>
+	<td>Fallon Jacobson</td>
+	<td>Metropolitana de Santiago</td>
+	<td>Recoleta</td>
+	<td>Burundi</td>
+	<td>97410</td>
+</tr>
+<tr>
+	<td>24</td>
+	<td>Piper Juarez</td>
+	<td>WB</td>
+	<td>Plancenoit</td>
+	<td>Slovenia</td>
+	<td>72109</td>
+</tr>
+<tr>
+	<td>25</td>
+	<td>Geraldine Soto</td>
+	<td>RO</td>
+	<td>Dingwall</td>
+	<td>Sao Tome and Principe</td>
+	<td>44308</td>
+</tr>
+<tr>
+	<td>26</td>
+	<td>Kiayada Brady</td>
+	<td>Kayseri</td>
+	<td>Yahyalı</td>
+	<td>Oman</td>
+	<td>99332</td>
+</tr>
+<tr>
+	<td>27</td>
+	<td>Carissa Marshall</td>
+	<td>QC</td>
+	<td>Neuville</td>
+	<td>Northern Mariana Islands</td>
+	<td>24071</td>
+</tr>
+<tr>
+	<td>28</td>
+	<td>Helen Hanson</td>
+	<td>Munster</td>
+	<td>Cork</td>
+	<td>Finland</td>
+	<td>25476</td>
+</tr>
+<tr>
+	<td>29</td>
+	<td>Armand Frazier</td>
+	<td>WI</td>
+	<td>Salisbury</td>
+	<td>Congo (Brazzaville)</td>
+	<td>76739</td>
+</tr>
+<tr>
+	<td>30</td>
+	<td>Fredericka Christian</td>
+	<td>Hatay</td>
+	<td>Kırıkhan</td>
+	<td>India</td>
+	<td>97382</td>
+</tr>
+<tr>
+	<td>31</td>
+	<td>Abraham Woods</td>
+	<td>Haryana</td>
+	<td>Hisar</td>
+	<td>Anguilla</td>
+	<td>22903</td>
+</tr>
+<tr>
+	<td>32</td>
+	<td>Tatiana Stuart</td>
+	<td>Friuli-Venezia Giulia</td>
+	<td>Medea</td>
+	<td>Brunei</td>
+	<td>53651</td>
+</tr>
+<tr>
+	<td>33</td>
+	<td>Maryam Zamora</td>
+	<td>IL</td>
+	<td>Naperville</td>
+	<td>Turks and Caicos Islands</td>
+	<td>28330</td>
+</tr>
+<tr>
+	<td>34</td>
+	<td>Garrett Cochran</td>
+	<td>Ov</td>
+	<td>Deventer</td>
+	<td>Svalbard and Jan Mayen Islands</td>
+	<td>57381</td>
+</tr>
+<tr>
+	<td>35</td>
+	<td>Joseph Skinner</td>
+	<td>L.</td>
+	<td>Loksbergen</td>
+	<td>Saint Vincent and The Grenadines</td>
+	<td>34521</td>
+</tr>
+<tr>
+	<td>36</td>
+	<td>Vernon Sullivan</td>
+	<td>Berlin</td>
+	<td>Berlin</td>
+	<td>Djibouti</td>
+	<td>84940</td>
+</tr>
+<tr>
+	<td>37</td>
+	<td>Abigail Serrano</td>
+	<td>Tyrol</td>
+	<td>Schwaz</td>
+	<td>Syria</td>
+	<td>84592</td>
+</tr>
+<tr>
+	<td>38</td>
+	<td>Rhonda Parrish</td>
+	<td>İzm</td>
+	<td>Tire</td>
+	<td>Suriname</td>
+	<td>45661</td>
+</tr>
+<tr>
+	<td>39</td>
+	<td>Burke Ball</td>
+	<td>Wie</td>
+	<td>Vienna</td>
+	<td>Burundi</td>
+	<td>19591</td>
+</tr>
+<tr>
+	<td>40</td>
+	<td>Edan Robles</td>
+	<td>Vienna</td>
+	<td>Vienna</td>
+	<td>Åland Islands</td>
+	<td>22166</td>
+</tr>
+<tr>
+	<td>41</td>
+	<td>Lani Acevedo</td>
+	<td>G</td>
+	<td>Liberia</td>
+	<td>Sweden</td>
+	<td>17027</td>
+</tr>
+<tr>
+	<td>42</td>
+	<td>Isaiah Brock</td>
+	<td>VI</td>
+	<td>Peumo</td>
+	<td>Greenland</td>
+	<td>63481</td>
+</tr>
+<tr>
+	<td>43</td>
+	<td>Ferdinand Hernandez</td>
+	<td>Alajuela</td>
+	<td>San Rafael</td>
+	<td>Guyana</td>
+	<td>99059</td>
+</tr>
+<tr>
+	<td>44</td>
+	<td>Reed Nelson</td>
+	<td>Dolnośląskie</td>
+	<td>Jelenia Góra</td>
+	<td>Saint Barthélemy</td>
+	<td>46161</td>
+</tr>
+<tr>
+	<td>45</td>
+	<td>Autumn Shields</td>
+	<td>Sląskie</td>
+	<td>Katowice</td>
+	<td>Samoa</td>
+	<td>43887</td>
+</tr>
+<tr>
+	<td>46</td>
+	<td>Keely Norris</td>
+	<td>UP</td>
+	<td>Muzaffarnagar</td>
+	<td>Djibouti</td>
+	<td>25743</td>
+</tr>
+<tr>
+	<td>47</td>
+	<td>Hanna Maldonado</td>
+	<td>ID</td>
+	<td>Boise</td>
+	<td>Palestine, State of</td>
+	<td>34303</td>
+</tr>
+<tr>
+	<td>48</td>
+	<td>Kaden Mckee</td>
+	<td>South Island</td>
+	<td>Nelson</td>
+	<td>Argentina</td>
+	<td>65475</td>
+</tr>
+<tr>
+	<td>49</td>
+	<td>Nita Crane</td>
+	<td>Ceará</td>
+	<td>Caucaia</td>
+	<td>Reunion</td>
+	<td>64968</td>
+</tr>
+<tr>
+	<td>50</td>
+	<td>Cailin Salazar</td>
+	<td>AB</td>
+	<td>Gibbons</td>
+	<td>Holy See (Vatican City State)</td>
+	<td>29729</td>
+</tr>
+<tr>
+	<td>51</td>
+	<td>Freya Lang</td>
+	<td>U</td>
+	<td>Belfast</td>
+	<td>Ghana</td>
+	<td>37902</td>
+</tr>
+<tr>
+	<td>52</td>
+	<td>Xavier Mcfadden</td>
+	<td>WB</td>
+	<td>Tourinnes-la-Grosse</td>
+	<td>Antarctica</td>
+	<td>52199</td>
+</tr>
+<tr>
+	<td>53</td>
+	<td>Len Buckner</td>
+	<td>Östergötlands län</td>
+	<td>Norrköping</td>
+	<td>Liechtenstein</td>
+	<td>47312</td>
+</tr>
+<tr>
+	<td>54</td>
+	<td>Flavia Rowe</td>
+	<td>DE</td>
+	<td>Newark</td>
+	<td>Netherlands</td>
+	<td>77653</td>
+</tr>
+<tr>
+	<td>55</td>
+	<td>Nell Copeland</td>
+	<td>Texas</td>
+	<td>Austin</td>
+	<td>Saint Barthélemy</td>
+	<td>88202</td>
+</tr>
+<tr>
+	<td>56</td>
+	<td>Cole Vargas</td>
+	<td>South Island</td>
+	<td>Nelson</td>
+	<td>Colombia</td>
+	<td>85948</td>
+</tr>
+<tr>
+	<td>57</td>
+	<td>Leroy Pugh</td>
+	<td>NI</td>
+	<td>Lower Hutt</td>
+	<td>Guyana</td>
+	<td>90475</td>
+</tr>
+<tr>
+	<td>58</td>
+	<td>Abel Chang</td>
+	<td>Metropolitana de Santiago</td>
+	<td>Puente Alto</td>
+	<td>Sao Tome and Principe</td>
+	<td>88313</td>
+</tr>
+<tr>
+	<td>59</td>
+	<td>Yael Swanson</td>
+	<td>SJ</td>
+	<td>Alajuelita</td>
+	<td>Italy</td>
+	<td>69388</td>
+</tr>
+<tr>
+	<td>60</td>
+	<td>Craig Cook</td>
+	<td>SJ</td>
+	<td>Ipís</td>
+	<td>Northern Mariana Islands</td>
+	<td>30548</td>
+</tr>
+<tr>
+	<td>61</td>
+	<td>Kennan Oconnor</td>
+	<td>WB</td>
+	<td>Mont-Saint-AndrŽ</td>
+	<td>Papua New Guinea</td>
+	<td>76462</td>
+</tr>
+<tr>
+	<td>62</td>
+	<td>Tasha Dickson</td>
+	<td>Alberta</td>
+	<td>Canmore</td>
+	<td>Mauritania</td>
+	<td>53308</td>
+</tr>
+<tr>
+	<td>63</td>
+	<td>Portia Tyson</td>
+	<td>Katsina</td>
+	<td>Funtua</td>
+	<td>El Salvador</td>
+	<td>67568</td>
+</tr>
+<tr>
+	<td>64</td>
+	<td>Fredericka Ortega</td>
+	<td>Atacama</td>
+	<td>Tierra Amarilla</td>
+	<td>Austria</td>
+	<td>72456</td>
+</tr>
+<tr>
+	<td>65</td>
+	<td>Fay Patterson</td>
+	<td>New South Wales</td>
+	<td>Sydney</td>
+	<td>French Polynesia</td>
+	<td>63038</td>
+</tr>
+<tr>
+	<td>66</td>
+	<td>Henry Koch</td>
+	<td>Radnorshire</td>
+	<td>Rhayader</td>
+	<td>Iran</td>
+	<td>24100</td>
+</tr>
+<tr>
+	<td>67</td>
+	<td>Rowan Griffith</td>
+	<td>CO</td>
+	<td>Fort Collins</td>
+	<td>Grenada</td>
+	<td>92851</td>
+</tr>
+<tr>
+	<td>68</td>
+	<td>Rahim Lindsay</td>
+	<td>IL</td>
+	<td>Noisy-le-Grand</td>
+	<td>Bhutan</td>
+	<td>42930</td>
+</tr>
+<tr>
+	<td>69</td>
+	<td>Declan Contreras</td>
+	<td>Östergötlands län</td>
+	<td>Linköping</td>
+	<td>Lithuania</td>
+	<td>94829</td>
+</tr>
+<tr>
+	<td>70</td>
+	<td>Vera Acevedo</td>
+	<td>Carmarthenshire</td>
+	<td>Ammanford</td>
+	<td>Kuwait</td>
+	<td>75416</td>
+</tr>
+<tr>
+	<td>71</td>
+	<td>Willow Ingram</td>
+	<td>KT</td>
+	<td>Katsina</td>
+	<td>Russian Federation</td>
+	<td>22136</td>
+</tr>
+<tr>
+	<td>72</td>
+	<td>Allistair Sloan</td>
+	<td>Queensland</td>
+	<td>Rockhampton</td>
+	<td>Maldives</td>
+	<td>90568</td>
+</tr>
+<tr>
+	<td>73</td>
+	<td>Lunea Peck</td>
+	<td>AR</td>
+	<td>Huesca</td>
+	<td>Bouvet Island</td>
+	<td>29956</td>
+</tr>
+<tr>
+	<td>74</td>
+	<td>Zeus Kemp</td>
+	<td>Wie</td>
+	<td>Vienna</td>
+	<td>Panama</td>
+	<td>53099</td>
+</tr>
+<tr>
+	<td>75</td>
+	<td>Nora Klein</td>
+	<td>VIC</td>
+	<td>Melton</td>
+	<td>Palau</td>
+	<td>63301</td>
+</tr>
+<tr>
+	<td>76</td>
+	<td>Bo Benson</td>
+	<td>RS</td>
+	<td>Santa Maria</td>
+	<td>Niue</td>
+	<td>41319</td>
+</tr>
+<tr>
+	<td>77</td>
+	<td>Preston Preston</td>
+	<td>KD</td>
+	<td>Zaria</td>
+	<td>Myanmar</td>
+	<td>43287</td>
+</tr>
+<tr>
+	<td>78</td>
+	<td>Sybil Kline</td>
+	<td>Quebec</td>
+	<td>Sainte-Flavie</td>
+	<td>French Guiana</td>
+	<td>91833</td>
+</tr>
+<tr>
+	<td>79</td>
+	<td>Finn Kramer</td>
+	<td>San José</td>
+	<td>Concepción</td>
+	<td>Isle of Man</td>
+	<td>20046</td>
+</tr>
+<tr>
+	<td>80</td>
+	<td>Mannix Cox</td>
+	<td>RM</td>
+	<td>Pedro Aguirre Cerda</td>
+	<td>Senegal</td>
+	<td>88444</td>
+</tr>
+<tr>
+	<td>81</td>
+	<td>Nita Owens</td>
+	<td>WE</td>
+	<td>Kendal</td>
+	<td>Saudi Arabia</td>
+	<td>16260</td>
+</tr>
+<tr>
+	<td>82</td>
+	<td>Grace Dixon</td>
+	<td>Istanbul</td>
+	<td>Istanbul</td>
+	<td>Iran</td>
+	<td>78527</td>
+</tr>
+<tr>
+	<td>83</td>
+	<td>Dawn Delgado</td>
+	<td>AN</td>
+	<td>Granada</td>
+	<td>Laos</td>
+	<td>59402</td>
+</tr>
+<tr>
+	<td>84</td>
+	<td>Abdul Alexander</td>
+	<td>Wie</td>
+	<td>Vienna</td>
+	<td>Mayotte</td>
+	<td>22886</td>
+</tr>
+<tr>
+	<td>85</td>
+	<td>Halla Massey</td>
+	<td>Rio Grande do Sul</td>
+	<td>Santa Maria</td>
+	<td>Chad</td>
+	<td>42243</td>
+</tr>
+<tr>
+	<td>86</td>
+	<td>Fallon Mills</td>
+	<td>GJ</td>
+	<td>Nadiad</td>
+	<td>San Marino</td>
+	<td>41437</td>
+</tr>
+<tr>
+	<td>87</td>
+	<td>Sylvia House</td>
+	<td>Wisconsin</td>
+	<td>Milwaukee</td>
+	<td>Guyana</td>
+	<td>61294</td>
+</tr>
+<tr>
+	<td>88</td>
+	<td>Elton House</td>
+	<td>QC</td>
+	<td>Collines-de-l'Outaouais</td>
+	<td>Hungary</td>
+	<td>80712</td>
+</tr>
+<tr>
+	<td>89</td>
+	<td>Veronica Faulkner</td>
+	<td>Ank</td>
+	<td>Kızılcahamam</td>
+	<td>Singapore</td>
+	<td>50389</td>
+</tr>
+<tr>
+	<td>90</td>
+	<td>Naomi Cohen</td>
+	<td>Jönköpings län</td>
+	<td>Jönköping</td>
+	<td>Spain</td>
+	<td>54831</td>
+</tr>
+<tr>
+	<td>91</td>
+	<td>Kirestin Howard</td>
+	<td>MP</td>
+	<td>Tarnów</td>
+	<td>Turks and Caicos Islands</td>
+	<td>87155</td>
+</tr>
+<tr>
+	<td>92</td>
+	<td>Samuel Vega</td>
+	<td>BE</td>
+	<td>Berlin</td>
+	<td>French Polynesia</td>
+	<td>24448</td>
+</tr>
+<tr>
+	<td>93</td>
+	<td>Shay Reed</td>
+	<td>BE</td>
+	<td>Berlin</td>
+	<td>Saint Barthélemy</td>
+	<td>15945</td>
+</tr>
+<tr>
+	<td>94</td>
+	<td>Leilani Mcdaniel</td>
+	<td>Paraíba</td>
+	<td>João Pessoa</td>
+	<td>Bangladesh</td>
+	<td>87368</td>
+</tr>
+<tr>
+	<td>95</td>
+	<td>Virginia Levy</td>
+	<td>Molise</td>
+	<td>Bojano</td>
+	<td>Falkland Islands</td>
+	<td>25608</td>
+</tr>
+<tr>
+	<td>96</td>
+	<td>Jermaine Santiago</td>
+	<td>Metropolitana de Santiago</td>
+	<td>Lo Barnechea</td>
+	<td>Virgin Islands, British</td>
+	<td>90426</td>
+</tr>
+<tr>
+	<td>97</td>
+	<td>Zahir Wood</td>
+	<td>A</td>
+	<td>Quesada</td>
+	<td>Mongolia</td>
+	<td>31511</td>
+</tr>
+<tr>
+	<td>98</td>
+	<td>Vanna Tate</td>
+	<td>AB</td>
+	<td>Edmonton</td>
+	<td>Estonia</td>
+	<td>72350</td>
+</tr>
+<tr>
+	<td>99</td>
+	<td>Audrey Ramirez</td>
+	<td>DU</td>
+	<td>Hartlepool</td>
+	<td>Mali</td>
+	<td>67128</td>
+</tr>
+<tr>
+	<td>100</td>
+	<td>Jane Cote</td>
+	<td>Bgl</td>
+	<td>Eisenstadt</td>
+	<td>Argentina</td>
+	<td>53534</td>
+</tr> 
